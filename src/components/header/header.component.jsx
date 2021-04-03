@@ -4,7 +4,6 @@ import { ReactComponent as Logo } from '../../assets/crown.svg'
 import { auth } from '../../firebase/firebase.utils'
 
 import './header.styles.scss'
-import FormInput from '../form-input/form-input.component'
 
 const Header = ({ currentUser }) => (
     <div className='header'>
